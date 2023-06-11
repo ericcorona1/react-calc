@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="calculator-grid">
       <div className="output">
-        <div className="previous-operand"></div>
-        <div className="current-operand"></div>
+        <div className="previous-operand">123234 *</div>
+        <div className="current-operand">123234</div>
       </div>
       <button className="span-two">AC</button>
       <button>DEL</button>

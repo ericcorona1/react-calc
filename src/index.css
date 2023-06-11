@@ -26,9 +26,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-content: center;
   min-width: 320px;
   min-height: 100vh;
+  align-items: center;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.6em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -48,11 +49,13 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #f2ff64;
+  background-color: #5f6707;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  border-color: #f2ff64;
+  background-color: #5f6707;
 }
 
 @media (prefers-color-scheme: light) {
