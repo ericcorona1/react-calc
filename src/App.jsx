@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useReducer, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+function reducer(state, action) {
+  
+}
+
 function App() {
-  const [count, setCount] = useState(0);
+  const [state, dispatch] = useReducer(reducer);
 
   return (
     <div className="calculator-grid">
